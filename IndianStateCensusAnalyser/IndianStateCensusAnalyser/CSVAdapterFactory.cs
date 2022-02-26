@@ -29,5 +29,10 @@ namespace IndianStateCensusAnalyser
                 throw ex;
             }
         }
+
+        public Dictionary<string, CensusDTO> LoadCsvData(CensusAnalyser.Country iNDIA, object statCodeFilePath, object stateCodeHeader)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
